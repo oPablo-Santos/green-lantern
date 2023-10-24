@@ -1,11 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View, TextInput } from "react-native";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text>Eu te amo martiela!</Text>
+      <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
+        <Text>Marcellinha</Text>
+        <Text>A mais amada</Text>
+        <Text>Do mundo</Text>
+      </View>
+      <StatusBar style="blue" />
     </View>
   );
 }
@@ -13,8 +18,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#00ffaa",
+    justifyContent: "center",
   },
 });
